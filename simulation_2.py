@@ -1,10 +1,5 @@
-# New Monte-Carlo suite of codes #
-# Includes definitions of ODT potential, RK4 time-evol.,
-# AC-Stark shift, recoil from photon abs./re-emission etc. #
-# as interfacing with the lightMatterMC Fotran 90 suite of codes
-# Developed by Daniel S. Grun in 2023
-
-# Daniel S. Grun and Leonardo B. Giacomelli, Innsbruck 2023 #
+# Suite of functions to use with the wrapped Fortran code.
+# Enables parallelization of the calculations.
 
 import numpy as np
 from tqdm import tqdm
